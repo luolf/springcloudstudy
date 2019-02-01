@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-bean" />
         <module name="commonbean" />
+        <module name="eurekacenter" />
+        <module name="microservice-simple-consumer-movie" />
         <module name="microservice-simple-provider-user" />
         <module name="microservicesimpleconsumermovie" />
       </profile>

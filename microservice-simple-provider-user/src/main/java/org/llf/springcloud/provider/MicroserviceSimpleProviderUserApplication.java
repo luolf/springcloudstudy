@@ -9,7 +9,16 @@ import org.springframework.context.annotation.Bean;
 
 import java.math.BigDecimal;
 import java.util.stream.Stream;
-
+/**
+ * @Created with IntelliJ IDEA.
+ * @Description:   早期的版本（Dalston及更早版本）
+ * 还需在启动类上添加注解@EnableDiscoveryClient 或@EnableEurekaClient ，
+ * 从Edgware开始，该注解可省略。只要引入spring-cloud-starter-netflix-eureka-clien
+ * @return:
+ * @params:
+ * @author: luolifeng
+ * @Date: 2019/2/1
+ */
 @SpringBootApplication
 public class MicroserviceSimpleProviderUserApplication {
 
